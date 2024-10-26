@@ -1,0 +1,3 @@
+recursive-include src/st_drag_drop/frontend *
+include README.md
+include LICENSE

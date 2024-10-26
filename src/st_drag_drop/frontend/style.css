@@ -1,0 +1,48 @@
+/* Layout for the component */
+.container {
+    display: flex;
+    max-width: 100%;
+    margin: 20px;
+  }
+
+  /* Fixed draggable area */
+  .draggable-area {
+    width: 200px; /* Set width of draggable area */
+    margin-right: 20px;
+    position: sticky;
+    top: 0; /* Stick to the top of the page */
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  /* Scrollable container for droppable areas */
+  .scrollable-container {
+    flex-grow: 1;
+    height: 400px; /* Set the height of the droppable area */
+    overflow-y: auto; /* Enable vertical scrollbar */
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+
+  /* Styles for draggable and droppable items */
+  .draggable {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: move;
+  }
+
+  .droppable {
+    padding: 20px;
+    margin: 20px;
+    background-color: #e0e0e0;
+    border: 2px dashed #aaa;
+    min-height: 100px;
+  }
+
+  .over {
+    background-color: #d0ffd0;
+  }
